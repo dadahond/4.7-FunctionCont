@@ -220,3 +220,49 @@
 // }
 // console.log(daraja(5, 5));
 // console.log(daraja(3, 3));
+
+// 56-MASALA.Funksiya massiv qabul qiladi. Ushbu funksiya massivning so’nggi elementini qaytarib bersin.
+
+// function songiElement(arr) {
+//     return arr[arr.length - 1];
+// }
+// console.log(songiElement([1, 2, 3]));
+// console.log(songiElement(["dog", "cat", "duck"]));
+
+// 57-MASALA. Kabisa yilini aniqlaydigan funksiya yasang. Agar kiritilgan yil kabisa bo’lsa funksiya true qaytaradi, aks holda false. Kabisa yili 4ga bo’linadigan yil bo’lib, lekin 100ga bo’linsa u holda 400ga ham bo’linganidagina kabisa hisoblanadi.
+
+// function kabisa(yil) {
+//     return yil % 4 == 0 || yil % 100 == 0;
+// }
+// console.log(kabisa(2000));
+// console.log(kabisa(2001));
+// console.log(kabisa(1968));
+
+// 58-MASALA. Funskiyaga so’z kiritilsa funksiya ushbu so’zni birinchi harfisiz qaytarib bersin.
+
+// function soz(word) {
+//     return word.substring(1);
+// }
+// console.log(soz("apple"));
+// console.log(soz("cherry"));
+
+// 59-MASALA.Boolen qiymatini teskarisini qaytarib beradigan funksiya yasang.
+
+// function teskariBool(bool) {
+//     return (bool = !bool);
+// }
+// console.log(teskariBool(true));
+// console.log(teskariBool(false));
+
+// 60 - MASALA.Funskiya son qabul qiladi, agar son juft bo’ lsa funskiya“ juft” qaytaradi, agar toq bo’lsa“ toq” qaytarsin.
+
+function juftMiToqmi(son) {
+    if (son % 2 == 0) {
+        return "juft";
+    } else {
+        return "toq";
+    }
+}
+console.log(juftMiToqmi(3));
+console.log(juftMiToqmi(146));
+console.log(juftMiToqmi(19));
